@@ -539,6 +539,9 @@ MonoBehaviour:
   speed: 6
   key_up: 273
   key_down: 274
+  player_number: 2
+  follow_as_cpu: {fileID: 1403607517}
+  options: {fileID: 1896144225}
 --- !u!65 &919071111
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2143,6 +2146,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1896144225 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1915820935213827828, guid: 1c9db151e13104019a08f3ded6158fae,
+    type: 3}
+  m_PrefabInstance: {fileID: 1153424459}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f29eaa0f81949ef85873bdb3267ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1904823004
 GameObject:
   m_ObjectHideFlags: 0
@@ -7318,3 +7333,6 @@ MonoBehaviour:
   speed: 6
   key_up: 119
   key_down: 115
+  player_number: 1
+  follow_as_cpu: {fileID: 1403607517}
+  options: {fileID: 1896144225}

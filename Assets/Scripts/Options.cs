@@ -21,4 +21,9 @@ public class Options : MonoBehaviour
     {
         Options.mode = Mode.PVCPU;
     }
+
+    public Mode GetSelectedMode()
+    {
+        return Options.mode;
+    }
 }
